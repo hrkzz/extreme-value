@@ -1,9 +1,3 @@
----
-title: Rを使って極値理論をファイナンスへ応用してみた（その３）
-tags: R 統計学 データ分析 ファイナンス
-author: hrkz_szk
-slide: false
----
 # Thresholdモデル
 その２でちらっと触れましたが、今回はThresholdモデルを紹介していきます。「Financial risk modelling and portfolio optimization with R」で指摘されていますが、Block maximaやr-block maximaを使ってファイナンスのデータを扱う場合、以下の問題点が指摘されています。
 
