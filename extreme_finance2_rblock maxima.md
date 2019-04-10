@@ -1,9 +1,3 @@
----
-title: Rを使って極値理論をファイナンスへ応用してみた（その２）
-tags: R 統計学 データ分析 ファイナンス
-author: hrkz_szk
-slide: false
----
 その１はこちら（極値理論の簡単な解説、Block maximaの実装を行っています）
 <https://qiita.com/hrkz_szk/items/43debffda9697d9dd7a9>
 
