@@ -1,5 +1,7 @@
 # 極値理論解析
-修士論文で極値理論を用いた解析を行っていました。極値理論の標準的な教科書である"An Introduction to Statistical Modelling of Extreme Values"(ISMEV)のサンプルコードのほか、極値理論を用いたファイナンスの分析を紹介しています。
+修士論文で極値理論を用いた解析を行っていました。極値理論の標準的な教科書である"An Introduction to Statistical Modelling of Extreme Values, Coles 2001"(ISMEV)のサンプルコードのほか、極値理論を用いたファイナンスの分析を紹介しています。
+
 また、Rの極値理論のパッケージの中のismevを使いやすくしたオリジナルの関数（extreme_functions.r）も公開しています。
 
+# ISMEV
 <div  class="amazon Default"><div  align="left" class="pictBox"><a  target="_blank" href="https://www.amazon.co.jp/Introduction-Statistical-Modeling-Springer-Statistics/dp/1852334592?SubscriptionId=AKIAIM37F4M6SCT5W23Q&amp;tag=lvdrfree-22&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=1852334592"><img  class="pict" style="margin-right:10px" align="left" hspace="5" border="0" alt="An Introduction to Statistical Modeling of Extreme Values (Springer Series in Statistics)" src="https://images-fe.ssl-images-amazon.com/images/I/41R%2BHU7X%2B4L._SL160_.jpg"></a></div><div  class="itemTitle"><a  target="_blank" href="https://www.amazon.co.jp/Introduction-Statistical-Modeling-Springer-Statistics/dp/1852334592?SubscriptionId=AKIAIM37F4M6SCT5W23Q&amp;amp;tag=lvdrfree-22&amp;amp;linkCode=xm2&amp;amp;camp=2025&amp;amp;creative=165953&amp;amp;creativeASIN=1852334592">An Introduction to Statistical Modeling of Extreme Values (Springer Series in Statistics) [ハードカバー]</a></div><div  class="itemSubTxt">Stuart Coles</div><div  class="itemSubTxt">Springer</div><div  class="itemSubTxt">2001-12-15</div></div><br  style="clear:left" clear="left"><br />
