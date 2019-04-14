@@ -2,6 +2,8 @@
 修士論文で極値理論を用いた解析を行っていました。その際、日本語の文献がほとんどないことを知ったため、少しでも極値理論の普及に繋がればと思い、極値理論の標準的な教科書である"An Introduction to Statistical Modelling of Extreme Values, Coles 2001"(ISMEV)のサンプルコードを公開しております。
 このほか、極値理論を用いたファイナンスの分析を紹介しています。
 
+なお、主にRmarkdownを使って解析を行っていたのですが、RmarkdownはGitHubとの相性が良くないため、Markdownをメインにコードを公開していますが、図に関してはとPDFをご覧ください…。
+
 # 極値理論用のパッケージ
 統計分析で良く用いられるRに有益なパッケージがいくつかあります。その中で最もメジャーだと思われるのが`ismev`と`extRemes`です。ただし、これらのパッケージもやや使いにくいところがあるので、少し修正したものをこちらで公開していますので、ご参考にしてください。
 https://github.com/hrkzz/extreme-value/blob/master/extreme_functions.r
