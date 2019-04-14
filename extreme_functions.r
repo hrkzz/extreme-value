@@ -1,4 +1,4 @@
-# GEV-Profile
+#Output a profile plot of a GEV distribution
 cgev.prof <- function (z, m, xlow, xup, conf = 0.95, nint = 500){
   if (m <= 1)
     stop("`m' must be greater than one")
@@ -70,11 +70,7 @@ cgev.prof <- function (z, m, xlow, xup, conf = 0.95, nint = 500){
               confint.lower=CI[1],confint.upper=CI[2]))
 }
 
-
-
-
-
-# GEV-Profile.xi
+#Output a xi profile plot of a GEV distribution
 cgev.profxi <- function (z, xlow, xup, conf = 0.95, nint = 500){
   cat("If routine fails, try changing plotting interval", fill = TRUE)
   v <- numeric(nint)
@@ -140,10 +136,7 @@ cgev.profxi <- function (z, xlow, xup, conf = 0.95, nint = 500){
               confint.lower=CI[1],confint.upper=CI[2]))
 }
 
-
-
-
-
+#Output dialog plots of a GEV distribution
 "cgev.diag" <- function (z) 
 {
   n <- length(z$data)
@@ -177,10 +170,7 @@ cgev.profxi <- function (z, xlow, xup, conf = 0.95, nint = 500){
 }
 
 
-
-
-
-# GPD-Profile
+#Output a profile plot of a GDP distribution
 cgpd.prof <- function (z, m, xlow, xup, npy = 365, conf = 0.95, nint = 500) {
   cat("If routine fails, try changing plotting interval", fill = TRUE)
   xdat <- z$data
@@ -249,11 +239,8 @@ cgpd.prof <- function (z, m, xlow, xup, npy = 365, conf = 0.95, nint = 500) {
               confint.lower=CI[1],confint.upper=CI[2]))
 }
 
-
-
-
-
-# GPD-Profile.xi
+#Output a xi plot of a GDP distribution
+GPD-Profile.xi
 cgpd.profxi <- function (z, xlow, xup, conf = 0.95, nint = 500) {
   cat("If routine fails, try changing plotting interval", fill = TRUE)
   xdat <- z$data
@@ -316,10 +303,7 @@ cgpd.profxi <- function (z, xlow, xup, conf = 0.95, nint = 500) {
               confint.left=CI[1],confint.right=CI[2]))
 }
 
-
-
-
-
+#Output a pp-plot of a GDP distribution
 cgpd.pp <- function (z) {
   n <- length(z$data)
   x <- (1:n)/(n + 1)
@@ -333,10 +317,7 @@ cgpd.pp <- function (z) {
   }
 }
 
-
-
-
-
+#Output a qq-plot of a GDP distribution
 cgpd.qq <- function (z) {
   n <- length(z$data)
   x <- (1:n)/(n + 1)
@@ -350,9 +331,7 @@ cgpd.qq <- function (z) {
   }
 }
 
-
-
-
+#Output a return level plot of a GDP distribution
 cgpd.rl <- function (z, xmax=max(m)/npy, 
                      ymax=max(xdat, q[q > u - 1] + 1.96 * sqrt(v)[q > u - 1])) 
 {
@@ -390,5 +369,3 @@ cgpd.rl <- function (z, xmax=max(m)/npy,
   sdat <- sort(xdat)
   points((1/(1 - (1:n)/(n + 1))/npy)[sdat > u], sdat[sdat > u])
 }
-
-
