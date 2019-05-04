@@ -12,7 +12,7 @@ https://github.com/hrkzz/extreme-value/blob/master/extreme_functions.r
 なお、機械学習やディープラーニングで注目を集めているPythonには極値理論の分析を助けてくれるパッケージはほとんどありません。
 
 # 修士論文
-極値理論を用いてテキサス州の電力需給に関する研究を行い、それを修士論文としてまとめました。こちらから参照可能です。[Assessing risk of electricity capacity shortfalls using extreme value methods]<https://github.com/hrkzz/extreme-value/blob/master/Assessing%20risk%20of%20electricity%20capacity%20shortfalls%20using%20extreme%20value%20methods.pdf>
+極値理論を用いてテキサス州の電力需給に関する研究を行い、それを修士論文としてまとめました。こちらから参照可能です。[Assessing risk of electricity capacity shortfalls using extreme value methods](https://github.com/hrkzz/extreme-value/blob/master/Assessing%20risk%20of%20electricity%20capacity%20shortfalls%20using%20extreme%20value%20methods.pdf)
 
 <概要>
 テキサス州の電力システムでは風力発電が広く普及し、エネルギー供給に貢献している一方、電力供給量が天候リスクに左右されやすくなっている。そこで、風力発電がテキサス州のブラックアウトに対して、どれくらいの影響を与えるのかについて、極値理論を用い、期待値を算出した。
